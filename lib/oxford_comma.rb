@@ -6,10 +6,12 @@ def oxford_comma(array)
   two
 elsif array.size > 2
   index = array.size - 1
-
-  comma = array.join(" , ")
-  slick = comma[-1]
-  hm = slick.unshift(" , ")
-  comma.pop.join(comma.length, hm)
+  save = array[index]
+  comma = array.pop
+  comma1 = array.join(" , ")
+  slick = save.to_s
+  comma2 << " and "
+  comma3 << slick
+  comma3
 end
 end
