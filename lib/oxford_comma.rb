@@ -1,7 +1,7 @@
 def oxford_comma(array)
-when array.length == 2
+  unless array.length == 2
   two = array.join(" and ")
-end
+    end
   comma = array.join(" , ")
   comma
 end
