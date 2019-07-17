@@ -1,8 +1,8 @@
 def oxford_comma(array)
-  unless array.size != 2
+  if array.size == 2
   two = array.join(" and ")
   two
-    end
+elsif 
   comma = array.join(" , ")
   comma
 end
