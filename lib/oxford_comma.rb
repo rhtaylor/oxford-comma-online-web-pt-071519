@@ -6,9 +6,9 @@ def oxford_comma(array)
   two
 elsif array.size > 2
   index = array.size - 1
-  
+
   comma = array.join(" , ")
-  slick = comma[-1] 
+  slick = comma[-1]
   hm = slick.unshift(" , ")
   comma.pop.join(comma.length, hm)
 end
