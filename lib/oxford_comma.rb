@@ -10,7 +10,7 @@ elsif array.size > 2
   comma = array.pop
   comma1 = array.join(", ")
   slick = save.to_s
-  comma2 = comma1 << " and "
+  comma2 = comma1 << ", and "
   comma3 = comma2 << slick
   comma3
 end
