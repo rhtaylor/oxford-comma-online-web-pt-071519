@@ -5,5 +5,5 @@ def oxford_comma(array)
 elsif
   comma = array.join(" , ")
   comma
-end 
+end
 end
